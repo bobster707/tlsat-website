@@ -1,0 +1,39 @@
+:root {
+    --amarr-gold: #c9a317;
+    --deep-space: #0a0a1a;
+    --warp-drive: #1a1a2a;
+}
+
+body {
+    background: var(--deep-space);
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background: var(--warp-drive);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), 
+                url('../img/banner.jpg') center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.activity-card {
+    background: var(--warp-drive);
+    padding: 2rem;
+    border: 1px solid var(--amarr-gold);
+    margin: 1rem;
+}
